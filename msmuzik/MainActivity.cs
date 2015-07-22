@@ -25,7 +25,6 @@ namespace msmuzik
 			SetContentView (Resource.Layout.Main);
 
 			player = new Player(this);
-			//parser = new Parser(this);
 			_gestureDetector = new GestureDetector(this);
 
 
