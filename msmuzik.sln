@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmuzik", "msmuzik\msmuzik.csproj", "{09E50C27-C7BF-424D-92B8-67B0A8E69429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msmuzik.UITests", "msmuzik.UITests\msmuzik.UITests.csproj", "{8F5DFD13-3203-4BFF-BC27-80CC89A70568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09E50C27-C7BF-424D-92B8-67B0A8E69429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E50C27-C7BF-424D-92B8-67B0A8E69429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E50C27-C7BF-424D-92B8-67B0A8E69429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E50C27-C7BF-424D-92B8-67B0A8E69429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5DFD13-3203-4BFF-BC27-80CC89A70568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5DFD13-3203-4BFF-BC27-80CC89A70568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5DFD13-3203-4BFF-BC27-80CC89A70568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5DFD13-3203-4BFF-BC27-80CC89A70568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

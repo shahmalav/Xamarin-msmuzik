@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/arijit"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/MainLayout"
+    android:fadingEdge="vertical"
+    android:fadingEdgeLength="10dp"
+    android:requiresFadingEdge="horizontal"
+    android:drawingCacheQuality="auto"
+    android:padding="5dp"
+    android:visibility="visible"
+    android:scrollbarFadeDuration="10"
+    android:paddingTop="50dp">
+    <TextView
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:textAlignment="center"
+        android:layout_centerInParent="false"
+        android:background="#ff746d6d"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:text="Duration"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDuration"
+        android:textAlignment="center"
+        android:layout_centerInParent="false"
+        android:background="#ff746d6d"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
