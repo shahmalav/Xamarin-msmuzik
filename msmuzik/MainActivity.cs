@@ -17,7 +17,6 @@ namespace msmuzik
 		RelativeLayout relLayout;
 		TextView txtTitle, txtDuration;
 
-	//	Parser parser;
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -27,7 +26,7 @@ namespace msmuzik
 			player = new Player(this);
 			_gestureDetector = new GestureDetector(this);
 
-
+			//player.ToString ();
 			txtTitle = FindViewById<TextView> (Resource.Id.txtTitle);
 			txtDuration = FindViewById<TextView> (Resource.Id.txtDuration);
 			relLayout = FindViewById<RelativeLayout> (Resource.Id.MainLayout);
